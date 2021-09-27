@@ -1,0 +1,17 @@
+.home__image{
+    width: 100%;
+    overflow: hidden;
+    mask-image: linear-gradient(to bottom, rgb(3, 59, 27, 1), rgba(3, 59, 27, 0));
+}
+.home{
+    min-height: 100vh;
+    z-index: -1;
+    margin-bottom: -150px;
+}
+
+.home__row{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
